@@ -33,7 +33,7 @@
               <br />
               <button
                 type="submit"
-                class="w-full bg-indigo-500 border border-transparent rounded-md py-5 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-indigo-500"
+                class="w-full justify-center inline-flex items-center px-6 py-3 border border-white shadow-sm text-base font-medium rounded-md text-white bg-transparent hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               >
                 ENGLISH
               </button>
