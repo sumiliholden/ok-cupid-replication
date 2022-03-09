@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      :class="'splashdtf-hero-image ' + backgroundSet"
+      :class="'splashdtf-hero-image transition-all ' + backgroundSet"
       :style="'background-color:' + backgroundColorSet"
     >
       <Header />
@@ -47,7 +47,7 @@ export default {
       this.backgroundColorSet = this.color[this.index];
       this.index++;
       if (this.index === this.background.length) this.index = 0;
-    }, 500);
+    }, 4000);
   },
 };
 </script>
