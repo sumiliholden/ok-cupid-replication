@@ -5,11 +5,11 @@
       <h1 class="splashdtf-top-text-heading">DATING FOR EVERY SINGLE PERSON</h1>
       <div class="font-mono relative py-6 lg:py-4">
         <div class="md:w-2/5">
-          <p class="mt-3 text-lg text-gray-800 ">
+          <p class="mt-3 text-lg text-gray-800 leading-loose">
             OkCupid is the only dating app that matches you on what matters to
             you.
           </p>
-          <p class="mt-3 text-lg text-gray-800">
+          <p class="mt-3 text-lg text-gray-800 leading-loose">
             You deserve to find who you’re looking for. Meet them today!
           </p>
         </div>
