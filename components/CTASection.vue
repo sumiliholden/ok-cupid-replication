@@ -24,7 +24,7 @@
         <div class="rounded-md">
           <NuxtLink to="/signup">
             <a
-              class="w-96 shadow inline-flex items-center justify-center px-10 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-500"
+              class="w-full md:w-96 shadow inline-flex items-center justify-center px-10 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-500"
             >
               JOIN OKCUPID
             </a>
