@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-full flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+  <div class="font-mono min-h-full flex flex-col justify-center py-12 sm:px-6 lg:px-8">
     <div class="sm:mx-auto sm:w-full sm:max-w-md">
       <button
         v-if="this.$store.state.status > 0"
@@ -54,13 +54,18 @@
         About you
       </h2>
     </div>
-
-    <SignupEmailForm v-show="this.$store.state.status === 0" />
-    <SignupPasswordForm v-show="this.$store.state.status === 1" />
+    <transition name="show" mode="out-in">
+      <SignupEmailForm
+        class="transition-all"
+        v-if="!this.$store.state.status"
+      />
+      <SignupPasswordForm class="transition-all" v-else />
+    </transition>
   </div>
 </template>
 <script>
 export default {
+  transitions: "show",
   layout: "signup",
   name: "SignupPage",
   methods: {
@@ -70,3 +75,18 @@ export default {
   },
 };
 </script>
+<style scoped>
+.flip-enter-active {
+  transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53); 
+}
+
+.flip-leave-active {
+  transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94); 
+}
+
+.flip-enter,
+.flip-leave-to {
+  transform: scaleY(0) translateZ(0);
+  opacity: 0;
+}
+</style>

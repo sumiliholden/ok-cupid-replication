@@ -1,8 +1,6 @@
 export const state = () => ({
   modal: false,
-  email: true,
-  password: false,
-  status: 0
+  status: false
 })
 
 export const mutations = {
@@ -13,9 +11,9 @@ export const mutations = {
     state.modal = false
   },
   signupDone(state){
-    state.status = 1 
+    state.status = true 
   },
   back(state){
-    state.status--
+    state.status = false
   }
 }
