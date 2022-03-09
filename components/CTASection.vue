@@ -3,9 +3,9 @@
   <div>
     <div class="max-w-7xl mx-auto py-10 px-4 sm:px-6 md:py-5 lg:px-8 lg:py-5">
       <h1 class="splashdtf-top-text-heading">DATING FOR EVERY SINGLE PERSON</h1>
-      <div class="relative py-6 lg:py-4">
+      <div class="font-mono relative py-6 lg:py-4">
         <div class="md:w-2/5">
-          <p class="mt-3 text-lg text-gray-800">
+          <p class="mt-3 text-lg text-gray-800 ">
             OkCupid is the only dating app that matches you on what matters to
             you.
           </p>
@@ -32,17 +32,23 @@
         </div>
       </div>
       <br />
-      <div class="splashdtf-mobile">
-        <span class="splashdtf-mobile-text">GET THE APP</span
-        ><a
-          class="splashdtf-mobile-buttons splashdtf-mobile-buttons--googleplay"
-          href="https://play.google.com/store/apps/details?id=com.okcupid.okcupid&amp;referrer=utm_source%3Ddesktophome%2526utm_medium%253Dweb"
-          ><span class="screen-reader-only">Google Play</span></a
-        ><a
-          class="splashdtf-mobile-buttons splashdtf-mobile-buttons--appstore"
-          href="https://itunes.apple.com/app/apple-store/id338701294?pt=296162&amp;ct=desktophome%20Score&amp;mt=8"
-          ><span class="screen-reader-only">App Store</span></a
-        >
+      <div class="splashdtf-mobile my-auto">
+        <div class="grid grid-cols-2 gap-4 max-w-sm mx-auto md:mx-0">
+          <p class="splashdtf-mobile-text text-right">
+            GET THE APP
+          </p>
+          <div>
+            <a
+              class="splashdtf-mobile-buttons splashdtf-mobile-buttons--googleplay"
+              href="https://play.google.com/store/apps/details?id=com.okcupid.okcupid&amp;referrer=utm_source%3Ddesktophome%2526utm_medium%253Dweb"
+              ><span class="screen-reader-only">Google Play</span></a
+            ><a
+              class="splashdtf-mobile-buttons splashdtf-mobile-buttons--appstore"
+              href="https://itunes.apple.com/app/apple-store/id338701294?pt=296162&amp;ct=desktophome%20Score&amp;mt=8"
+              ><span class="screen-reader-only">App Store</span></a
+            >
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -88,7 +94,6 @@ h1 {
 
 .splashdtf-mobile-buttons {
   display: inline-block;
-  margin-right: 17px;
   width: 64px;
   height: 43px;
   line-height: 43px;
@@ -96,7 +101,6 @@ h1 {
 
 /* TEXT */
 .splashdtf-mobile-text {
-  margin-right: 26px;
   font-weight: bold;
   font-size: 1rem;
   line-height: 43px;
