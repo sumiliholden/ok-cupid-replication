@@ -53,37 +53,74 @@ export default {
 </script>
 
 <style scoped>
-.splashdtf-hero {
-  transition: opacity 300ms linear;
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 200;
-  right: 0;
+@media (min-width: 766px) {
+  .splashdtf-hero {
+    transition: opacity 300ms linear;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 200;
+    right: 0;
+  }
+  .splashdtf-hero-image--pansexual {
+    background-position:right bottom;
+    background-size: 500px auto;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.okccdn.com/media/img/every_single_person/photos/pansexual.jpg);
+  }
+  .splashdtf-hero-image--romantic {
+    background-position: right bottom;
+    background-size: 600px auto;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.okccdn.com/media/img/every_single_person/photos/romantic.jpg);
+  }
+  .splashdtf-hero-image--single-person {
+    background-position: right bottom;
+    background-size: 500px auto;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.okccdn.com/media/img/every_single_person/photos/single_person.jpg);
+  }
+  .splashdtf-hero-image--single-vegan {
+    background-position: right bottom;
+    background-size: 400px auto;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.okccdn.com/media/img/every_single_person/photos/single_vegan.jpg);
+  }
 }
-.splashdtf-hero-image--pansexual {
-  background-position: calc(50% + 375px) calc(100% + 10px);
-  background-size: 900px auto;
-  background-repeat: no-repeat;
-  background-image: url(https://cdn.okccdn.com/media/img/every_single_person/photos/pansexual.jpg);
-}
-.splashdtf-hero-image--romantic {
-  background-position: calc(50% + 275px) calc(80% + 10px);
-  background-size: 1100px auto;
-  background-repeat: no-repeat;
-  background-image: url(https://cdn.okccdn.com/media/img/every_single_person/photos/romantic.jpg);
-}
-.splashdtf-hero-image--single-person {
-  background-position: calc(50% + 300px) calc(100% + 20px);
-  background-size: 730px auto;
-  background-repeat: no-repeat;
-  background-image: url(https://cdn.okccdn.com/media/img/every_single_person/photos/single_person.jpg);
-}
-.splashdtf-hero-image--single-vegan {
-  background-position: calc(50% + 300px) calc(100% + 10px);
-  background-size: 600px auto;
-  background-repeat: no-repeat;
-  background-image: url(https://cdn.okccdn.com/media/img/every_single_person/photos/single_vegan.jpg);
+@media (min-width: 1000px) {
+  .splashdtf-hero {
+    transition: opacity 300ms linear;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 200;
+    right: 0;
+  }
+  .splashdtf-hero-image--pansexual {
+    background-position: calc(50% + 375px) calc(100% + 10px);
+    background-size: 900px auto;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.okccdn.com/media/img/every_single_person/photos/pansexual.jpg);
+  }
+  .splashdtf-hero-image--romantic {
+    background-position: calc(50% + 275px) calc(80% + 10px);
+    background-size: 1100px auto;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.okccdn.com/media/img/every_single_person/photos/romantic.jpg);
+  }
+  .splashdtf-hero-image--single-person {
+    background-position: calc(50% + 300px) calc(100% + 20px);
+    background-size: 730px auto;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.okccdn.com/media/img/every_single_person/photos/single_person.jpg);
+  }
+  .splashdtf-hero-image--single-vegan {
+    background-position: calc(50% + 300px) calc(100% + 10px);
+    background-size: 600px auto;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.okccdn.com/media/img/every_single_person/photos/single_vegan.jpg);
+  }
 }
 </style>
