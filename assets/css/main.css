@@ -1,11 +1,10 @@
-body {
+
+p{
+  color: black;
   font-family: "GT America", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: normal;
-}
-p{
-  color: black;
 }
 
 .show-leave-enter,

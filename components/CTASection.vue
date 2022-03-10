@@ -19,8 +19,8 @@
           <p class="mt-3 text-lg text-black leading-snug">
             By clicking Join, you agree to our
             <a class="underline">Terms.</a> Learn how we process your data in
-            our<a class="underline">Privacy Policy </a
-            ><a class="underline"> and Cookies Policy.</a>
+            our<a class="underline"> Privacy Policy </a
+            >and<a class="underline">  Cookies Policy.</a>
           </p>
         </div>
       </div>

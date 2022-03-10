@@ -1,9 +1,9 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
   <header as="nav">
-    <div class="max-w-6xl mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="max-w-6xl mx-auto px-2 sm:px-6 lg:px-6 py-1">
       <div
-        class="relative flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8"
+        class="relative flex justify-between items-center max-w-7xl mx-auto px-4 py-7 sm:px-6 md:justify-start md:space-x-10 lg:px-8"
       >
         <div class="flex justify-start md:w-0 md:flex-1">
           <div class="flex-shrink-0 flex items-center">
@@ -58,6 +58,7 @@
             </NuxtLink>
           </div>
         </div>
+        
       </div>
     </div>
   </header>
