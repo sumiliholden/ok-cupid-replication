@@ -2,12 +2,11 @@
   <div
     class="fixed z-50 inset-0 bg-gray-900 bg-opacity-60 overflow-y-auto h-full w-full px-4"
   >
-    <div class="relative top-20 mx-auto shadow-lg rounded-md bg-white max-w-md">
+    <div class="relative top-20 mx-auto shadow-lg rounded-md bg-white max-w-sm">
       <!-- Modal header -->
       <div
-        class="flex justify-between items-center text-white text-xl rounded-t-md px-4 py-2"
+        class="flex justify-end items-center text-white text-xl rounded-t-md px-4 py-4"
       >
-        <h3 class="bg-white">MODAL</h3>
         <button class="text-gray-800" @click="closeModal()">
           <svg
             class="svg-icon"
@@ -23,12 +22,7 @@
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M10.750656 1013.12136c-13.822272-13.822272-13.822272-36.347457 0-50.169729l952.200975-952.200975c13.822272-13.822272 36.347457-13.822272 50.169729 0 13.822272 13.822272 13.822272 36.347457 0 50.169729l-952.200975 952.200975c-14.334208 14.334208-36.347457 14.334208-50.169729 0z"
-              fill=""
-            />
-            <path
-              d="M10.750656 10.750656c13.822272-13.822272 36.347457-13.822272 50.169729 0L1013.633296 963.463567c13.822272 13.822272 13.822272 36.347457 0 50.169729-13.822272 13.822272-36.347457 13.822272-50.169729 0L10.750656 60.920385c-14.334208-14.334208-14.334208-36.347457 0-50.169729z"
-              fill=""
+              d="M960 780.736 691.008 512 960 243.264 780.736 64 512 332.864 243.136 64 64 243.264 332.736 512 64 780.736 243.136 960 512 691.136 780.736 960z"
             />
           </svg>
         </button>
@@ -37,11 +31,11 @@
       <!-- Modal body -->
       <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
         <h2
-          class="mt-6 text-center lg:text-3xl text-2xl font-extrabold text-gray-900"
+          class="mt-6 text-center px-4 text-2xl font-bold text-gray-900"
         >
           Enter email and password
         </h2>
-        <div class="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
+        <div class="bg-white py-8 px-10 shadow sm:rounded-lg ">
           <form class="space-y-6" action="#" method="POST">
             <div>
               <label
@@ -98,10 +92,7 @@
               </div>
 
               <div class="text-sm">
-                <a
-                  href="#"
-                  class="font-medium text-sky-600 hover:text-sky-500"
-                >
+                <a href="#" class="font-medium text-sky-600 hover:text-sky-500">
                   Forgot your password?
                 </a>
               </div>
@@ -110,7 +101,7 @@
             <div>
               <button
                 type="submit"
-                class="w-full flex justify-center py-5 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-sky-600 hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500"
+                class="w-full flex justify-center py-5 px-4 border border-transparent rounded-md shadow-sm text-md font-bold text-white bg-sky-600 hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500"
               >
                 NEXT
               </button>
@@ -123,8 +114,8 @@
                 <div class="w-full border-t border-gray-300" />
               </div>
               <div class="relative flex justify-center text-sm">
-                <span class="px-2 bg-white text-gray-500">
-                  Or continue with
+                <span class="px-2 bg-white text-gray-500 text-lg">
+                  or 
                 </span>
               </div>
             </div>
@@ -132,7 +123,7 @@
             <div class="mt-6 grid grid-cols-1 gap-1">
               <button
                 type="submit"
-                class="w-full flex justify-center py-5 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-sky-600 hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500"
+                class="w-full flex justify-center py-5 px-4 border border-transparent rounded-md shadow-sm text-md font-bold text-white bg-sky-600 hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500"
               >
                 LOGIN WITH PHONE
               </button>

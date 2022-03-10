@@ -1,52 +1,56 @@
 <!-- Please remove this file from your project -->
 <template>
-  <div>
-    <div class="max-w-7xl mx-auto py-10 px-4 sm:px-6 md:py-5 lg:px-8 lg:py-5">
-      <h1 class="splashdtf-top-text-heading">DATING FOR EVERY SINGLE PERSON</h1>
-      <div class="font-mono relative py-6 lg:py-4">
+  <div class="max-w-6xl mx-auto px-2 sm:px-6 lg:px-8">
+    <div
+      class="max-w-7xl mx-auto py-10 px-6 px-4 sm:px-6 md:py-5 lg:px-8 lg:py-5"
+    >
+      <h2 class="splashdtf-top-text-heading">DATING FOR EVERY SINGLE PERSON</h2>
+      <div class="relative py-6 lg:py-4">
         <div class="md:w-2/5">
-          <p class="mt-3 text-lg text-gray-800 leading-loose">
+          <p class="mt-3 text-xl text-black leading-relaxed">
             OkCupid is the only dating app that matches you on what matters to
             you.
-          </p>
-          <p class="mt-3 text-lg text-gray-800 leading-loose">
+            <br />
             You deserve to find who you’re looking for. Meet them today!
           </p>
         </div>
-        <div class="md:w-1/3">
-          <p class="mt-3 text-lg text-gray-800">
-            By clicking Join, you agree to our Terms. Learn how we process your
-            data in our Privacy Policy and Cookies Policy.
+        <br />
+        <div class="md:w-72">
+          <p class="mt-3 text-lg text-black leading-snug">
+            By clicking Join, you agree to our
+            <a class="underline">Terms.</a> Learn how we process your data in
+            our<a class="underline">Privacy Policy </a
+            ><a class="underline"> and Cookies Policy.</a>
           </p>
         </div>
       </div>
-      <div class="mt-4">
-        <div class="rounded-md">
-          <NuxtLink to="/signup">
-            <a
-              class="w-full md:w-96 shadow inline-flex items-center justify-center px-10 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-500"
-            >
-              JOIN OKCUPID
-            </a>
-          </NuxtLink>
+      <div class="md:w-72">
+        <div class="mt-4">
+          <div class="rounded-md">
+            <NuxtLink to="/signup">
+              <a
+                class="w-full shadow inline-flex items-center justify-center px-10 py-5 border border-transparent text-base font-extrabold rounded-md text-white bg-black hover:bg-gray-500"
+              >
+                JOIN OKCUPID
+              </a>
+            </NuxtLink>
+          </div>
         </div>
-      </div>
-      <br />
-      <div class="splashdtf-mobile my-auto">
-        <div class="grid grid-cols-2 gap-4 max-w-sm mx-auto md:mx-0">
-          <p class="splashdtf-mobile-text text-right">
-            GET THE APP
-          </p>
-          <div>
-            <a
-              class="splashdtf-mobile-buttons splashdtf-mobile-buttons--googleplay"
-              href="https://play.google.com/store/apps/details?id=com.okcupid.okcupid&amp;referrer=utm_source%3Ddesktophome%2526utm_medium%253Dweb"
-              ><span class="screen-reader-only">Google Play</span></a
-            ><a
-              class="splashdtf-mobile-buttons splashdtf-mobile-buttons--appstore"
-              href="https://itunes.apple.com/app/apple-store/id338701294?pt=296162&amp;ct=desktophome%20Score&amp;mt=8"
-              ><span class="screen-reader-only">App Store</span></a
-            >
+        <br />
+        <div class="splashdtf-mobile my-auto">
+          <div class="grid grid-cols-2 gap-4 max-w-sm mx-auto md:mx-0">
+            <p class="splashdtf-mobile-text text-right">GET THE APP</p>
+            <div>
+              <a
+                class="splashdtf-mobile-buttons splashdtf-mobile-buttons--googleplay"
+                href="https://play.google.com/store/apps/details?id=com.okcupid.okcupid&amp;referrer=utm_source%3Ddesktophome%2526utm_medium%253Dweb"
+                ><span class="screen-reader-only">Google Play</span></a
+              ><a
+                class="splashdtf-mobile-buttons splashdtf-mobile-buttons--appstore"
+                href="https://itunes.apple.com/app/apple-store/id338701294?pt=296162&amp;ct=desktophome%20Score&amp;mt=8"
+                ><span class="screen-reader-only">App Store</span></a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -60,7 +64,7 @@ export default {
 };
 </script>
 <style scoped>
-h1 {
+h2 {
   width: 65%;
   margin: 0 8px 16px;
   font-size: 3.625rem;

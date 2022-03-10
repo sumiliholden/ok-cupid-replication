@@ -3,7 +3,7 @@
   <header as="nav">
     <div class="max-w-6xl mx-auto px-2 sm:px-6 lg:px-8">
       <div
-        class="relative flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8"
+        class="relative flex justify-between items-center max-w-7xl mx-auto px-4 py-7 sm:px-6 md:justify-start md:space-x-10 lg:px-8"
       >
         <div class="flex justify-start md:w-0 md:flex-1">
           <div class="flex-shrink-0 flex items-center">
@@ -51,11 +51,11 @@
             </svg>
           </div>
           <div class="hidden md:flex items-center justify-end md:flex-1">
-            <span class="mr-5">Have an account? </span>
+            <span class="mr-5 text-sm">Have an account? </span>
             <button
               @click="openModal()"
               type="button"
-              class="inline-flex items-center px-6 py-3 border border-gray-800 shadow-sm text-base font-medium rounded-md text-gray-800 bg-transparent hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              class="inline-flex items-center px-4 py-2 font-bold border border-gray-800 shadow-sm text-sm  rounded-md text-gray-800 bg-transparent hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >
               Sign in
             </button>
@@ -65,7 +65,7 @@
           <button
             @click="openModal()"
             type="button"
-            class="inline-flex items-center px-6 py-3 border border-gray-800 shadow-sm text-base font-medium rounded-md text-gray-800 bg-transparent hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            class="inline-flex items-center px-6 py-3 font-bold border border-gray-800 shadow-sm text-base  rounded-md text-gray-800 bg-transparent hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
             Sign in
           </button>

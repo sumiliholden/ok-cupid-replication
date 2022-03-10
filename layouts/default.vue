@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      :class="'splashdtf-hero-image transition-all ' + backgroundSet"
+      :class="'parent splashdtf-hero-image transition-all ' + backgroundSet"
       :style="'background-color:' + backgroundColorSet"
     >
       <Header />
@@ -18,7 +18,6 @@
           class="splashdtf-hero-image splashdtf-hero-image--single-vegan"
         ></div>
       </div>
-      <!-- <Footer /> -->
     </div>
     <Footer />
   </div>
@@ -53,6 +52,7 @@ export default {
 </script>
 
 <style scoped>
+
 @media (min-width: 766px) {
   .splashdtf-hero {
     transition: opacity 300ms linear;
@@ -64,7 +64,7 @@ export default {
     right: 0;
   }
   .splashdtf-hero-image--pansexual {
-    background-position:right bottom;
+    background-position: right bottom;
     background-size: 500px auto;
     background-repeat: no-repeat;
     background-image: url(https://cdn.okccdn.com/media/img/every_single_person/photos/pansexual.jpg);
@@ -89,6 +89,9 @@ export default {
   }
 }
 @media (min-width: 1000px) {
+  .parent {
+    min-height: 760px;
+  }
   .splashdtf-hero {
     transition: opacity 300ms linear;
     z-index: -1;

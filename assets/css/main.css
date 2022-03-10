@@ -1,9 +1,18 @@
+body {
+  font-family: "GT America", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: normal;
+}
+p{
+  color: black;
+}
 
 .show-leave-enter,
-.show-enter-active{
-  transition: opacity .5s
+.show-enter-active {
+  transition: opacity 0.5s;
 }
 .show-enter,
 .show-leave-to {
-  opacity: 0
+  opacity: 0;
 }
