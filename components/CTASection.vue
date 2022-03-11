@@ -7,7 +7,7 @@
       <h2 class="splashdtf-top-text-heading w-3/5">DATING FOR EVERY SINGLE PERSON</h2>
       <div class="relative py-6 lg:py-4">
         <div class="md:w-2/5">
-          <p class="mt-3 text-xl md:text-lg text-black leading-relaxed">
+          <p class="mt-3 text-xl md:text-lg font-semibold text-black leading-relaxed">
             OkCupid is the only dating app that matches you on what matters to
             you.
             <br />
@@ -16,7 +16,7 @@
         </div>
         <br />
         <div class="md:w-72">
-          <p class="mt-3 text-lg md:text-md text-black leading-snug">
+          <p class="mt-3 text-md font-semibold text-black leading-snug">
             By clicking Join, you agree to our
             <a class="underline">Terms.</a> Learn how we process your data in
             our<a class="underline"> Privacy Policy </a
