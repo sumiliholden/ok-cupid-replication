@@ -11,7 +11,7 @@
               <NuxtLink to="/signup">
                 <button
                   type="submit"
-                  class="w-full bg-sky-500 border border-transparent rounded-md py-3 px-2 flex items-center justify-center text-sm font-bold text-white hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-indigo-500"
+                  class="w-full bg-sky-500 border border-transparent rounded-md py-3 px-2 flex items-center justify-center text-sm font-bold text-white hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-gray-500"
                 >
                   JOIN OKCUPID
                 </button>
@@ -27,32 +27,22 @@
         </div>
         <div class="grid grid-cols-3 gap-8 xl:col-span-3">
           <div class="md:grid md:grid-cols-2 md:gap-8">
-            <div
-              class="w-full mt-3 rounded-md sm:mt-0 lg:flex-shrink-0"
-            >
+            <div class="w-full mt-3 rounded-md sm:mt-0 lg:flex-shrink-0">
               <p
                 class="text-center text-md font-semibold text-white tracking-wider uppercase"
               >
                 LANGUAGE
               </p>
               <br />
-              <button
-                type="submit"
-                id="dropdownButton"
-                data-dropdown-toggle="dropdown"
-                class="w-full inline-flex justify-between items-center px-1 py-2 border border-white shadow-sm text-xs font-medium rounded-md text-white bg-transparent hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              <select
+                id="location"
+                name="location"
+                class="mt-1 block w-full pl-3 pr-10 py-2 text-white bg-transparent border border-white focus:outline-none focus:ring-gray-500 focus:border-gray-500 sm:text-sm rounded-md"
               >
-                English
-                <svg
-                  class="fill-current h-6 w-6 align-right"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                >
-                  <path
-                    d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-                  />
-                </svg>
-              </button>
+                <option class="text-black" selected>English</option>
+                <option class="text-black" >Türkçe</option>
+                <option class="text-black">Deutsch</option>
+              </select>
             </div>
 
             <div class="mt-12 md:mt-0">
