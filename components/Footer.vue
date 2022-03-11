@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-gray-900" aria-labelledby="footer-heading">
+  <footer class="bg-neutral-900" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 xl:px-0">
       <div class="xl:grid xl:grid-cols-4 xl:gap-0">
@@ -11,7 +11,7 @@
               <NuxtLink to="/signup">
                 <button
                   type="submit"
-                  class="w-full bg-sky-500 border border-transparent rounded-md py-3 px-2 flex items-center justify-center text-sm font-bold text-white hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-gray-500"
+                  class="w-full bg-blue-700 border border-transparent rounded-md py-3 px-2 flex items-center justify-center text-sm font-bold text-white hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-gray-500"
                 >
                   JOIN OKCUPID
                 </button>
