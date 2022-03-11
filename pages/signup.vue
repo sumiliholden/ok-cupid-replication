@@ -1,5 +1,5 @@
 <template>
-  <div class="font-sans max-h-full flex flex-col justify-center pt-12 sm:px-6 lg:px-8">
+  <div class="font-sans max-h-full flex flex-col justify-center pt-12 px-12 lg:px-8">
     <div class="sm:mx-auto sm:w-full sm:max-w-md">
       <button
         v-if="this.$store.state.status > 0"
