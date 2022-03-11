@@ -11,7 +11,7 @@
               <NuxtLink to="/signup">
                 <button
                   type="submit"
-                  class="w-full bg-blue-700 border border-transparent rounded-md py-3 px-2 flex items-center justify-center text-sm font-bold text-white hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-gray-500"
+                  class="w-full bg-blue-700 border border-transparent rounded py-3 px-2 flex items-center justify-center text-sm font-bold text-white hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-gray-500"
                 >
                   JOIN OKCUPID
                 </button>
@@ -27,7 +27,7 @@
         </div>
         <div class="grid grid-cols-3 gap-8 xl:col-span-3">
           <div class="md:grid md:grid-cols-2 md:gap-8">
-            <div class="w-full mt-3 rounded-md sm:mt-0 lg:flex-shrink-0">
+            <div class="w-full mt-3 rounded sm:mt-0 lg:flex-shrink-0">
               <p
                 class="text-center text-md font-semibold text-white tracking-wider uppercase"
               >
