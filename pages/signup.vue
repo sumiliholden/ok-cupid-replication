@@ -50,7 +50,7 @@
         </button>
       </NuxtLink>
 
-      <h2 class="mt-6 text-center text-xl font-extrabold text-gray-900">
+      <h2 class="mt-6 text-center text-xl font-bold text-gray-900">
         About you
       </h2>
     </div>
